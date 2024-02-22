@@ -1,4 +1,4 @@
-#Cafe demo
+# Cafe demo
 
 This demo is implemented with spring boot and maven.
 If you are using intellij you can run the application by simply opening CafeProjectApplication in
