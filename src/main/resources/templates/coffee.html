@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favourite drink tracker</title>
+</head>
+<body>
+    <h1>Your favourite coffees</h1>
+    <ul>
+        <li th:each="coffee: ${coffee}" th:text="${coffee.name + ' - ' + coffee.weight + 'g - ' + coffee.price + '€ - Roast level: ' + coffee.roastingLevel}"></li>
+    </ul>
+</body>
+</html>

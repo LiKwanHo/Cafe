@@ -1,0 +1,5 @@
+Type: coffee, Name: Espresso, Weight: 250.0, Price: 3.5, Roasting Level: 3
+Type: coffee, Name: Espresso, Weight: 250.0, Price: 3.5, Roasting Level: 3
+Type: coffee, Name: Espresso, Weight: 250.0, Price: 3.5, Roasting Level: 3
+Type: coffee, Name: testname, Weight: 350.0, Price: 2.5, Roasting Level: 2
+Type: coffee, Name: testtea, Weight: 224.0, Price: 5.5, Roasting Level: 4

@@ -1,0 +1,2 @@
+Type: tea, Name: EarlyGrey, Weight: 250.0, Price: 3.5, Roasting Level: 3
+Type: tea, Name: testtea, Weight: 224.0, Price: 5.5, Roasting Level: 4
