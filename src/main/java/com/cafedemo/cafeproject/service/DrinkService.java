@@ -29,6 +29,7 @@ public class DrinkService {
                 drink.setRoastingLevel(Integer.parseInt(parts[4].split(": ")[1]));
                 drinkList.add(drink);
             }
+            reader.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

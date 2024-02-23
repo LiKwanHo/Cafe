@@ -32,8 +32,9 @@ public class DrinkController {
     }
 
     @PostMapping("/tea")
-    public void addTea(@RequestBody Drink tea) {
+    public ResponseEntity<String> addTea(@RequestBody Drink tea) {
         drinkService.saveDrink(tea);
+        return ResponseEntity.status(HttpStatus.CREATED).body("Tea added successfully");
     }
 
     @GetMapping("/coffee")
