@@ -12,6 +12,10 @@
                 "price": document.getElementById("price").value,
                 "roastingLevel": document.getElementById("roastingLevel").value
             };
+            if (!drink.name || !drink.weight || !drink.price) {
+                alert("Please make sure there are no empty values");
+                throw new Error("Empty values inserted");
+            }
             fetch(`/${drink.type}`, {
                 method: 'POST',
                 headers: {
@@ -39,11 +43,11 @@
         <option value="tea">Tea</option>
     </select><br>
     <label for="name">Name:</label>
-    <input type="text" id="name"><br>
+    <input type="text" id="name" required><br>
     <label for="weight">Weight:</label>
-    <input type="number" id="weight"><br>
+    <input type="number" id="weight" required><br>
     <label for="price">Price:</label>
-    <input type="number" id="price"><br>
+    <input type="number" id="price" required><br>
     <label for="roastingLevel">Roasting level:</label>
     <select id="roastingLevel" name="roastingLevel">
         <option value=1>1</option>
